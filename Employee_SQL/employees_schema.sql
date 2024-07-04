@@ -14,7 +14,7 @@ CREATE TABLE Titles (
 
 -- CREATE AN EMPLOYEES TABLE.
 CREATE TABLE Employees (
-    emp_no INTEGER(10) NOT NULL,
+    emp_no INTEGER NOT NULL,
     emp_title_id VARCHAR(40) NOT NULL,
     birth_date DATE NOT NULL,
     first_name VARCHAR(40) NOT NULL,
